@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Week 2 Day 4 Assignment</title>
+</head>
+
+<body>
+    <!-- Header containing text. -->
+    <header>
+        <h1>Multiple Search Engine Forms</h1>
+        <p>Type your search info in any of the fields below to use your preferred search engine!</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>Google</h2>
+            <!-- Form 1: Google | Will open search results in a new tab using Google's search engine.-->
+            <form action="https://www.google.com/search" method="get" target="_blank">
+                <!-- This is the label that ties the input field to the form. -->
+                <label for="q"></label>
+                <!-- This is the input field itself. -->
+                <input type="text" name="q" id="q">
+                <button>Search</button>
+            </form>
+        </section>
+
+        <section>
+            <h2>Bing</h2>
+            <!-- Form 2: Bing | Will open search results in a new tab using Bing's search engine. -->
+            <form action="https://www.bing.com/search" method="get" target="_blank">
+                <!-- This is the label that ties the input field to the form. -->
+                <label for="q"></label>
+                <!-- This is the input field itself. -->
+                <input type="text" name="q" id="q">
+                <button>Search</button>
+            </form>
+        </section>
+
+        <section>
+            <h2>Yahoo!</h2>
+            <!-- Form 3: Yahoo | Will open search results in a new tab using Yahoo's search engine. -->
+            <form action="https://search.yahoo.com/search" method="get" target="_blank">
+                <!-- This is the label that ties the input field to the form. -->
+                <label for="q"></label>
+                <!-- This is the input field itself. -->
+                <input type="text" name="q" id="q">
+                <button>Search</button>
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>
